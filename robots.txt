@@ -7,10 +7,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-User-agent: Yeti
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-Sitemap: https://tokyo-carlease.pages.dev/sitemap.xml
+Sitemap: https://sangsu-night-guide.link-hub.org/sitemap.xml
