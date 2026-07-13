@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <defs><linearGradient id="bgtoky" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#bf360c"/><stop offset="100%" stop-color="#0d47a1"/>
-  </linearGradient></defs>
-  <rect width="32" height="32" rx="6" fill="url(#bgtoky)"/>
-  <polygon points="16,3 30,28 2,28" fill="rgba(191,54,12,0.9)" stroke="rgba(13,71,161,0.6)" stroke-width="2"/>
-  <text x="16" y="21" text-anchor="middle" fill="#fff" font-size="8" font-weight="700" font-family="system-ui">TO</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <metadata>BPaaS site identity d7e24cb002729c30</metadata>
+  <rect width="64" height="64" rx="11" fill="hsl(186 49% 26%)"/>
+  <path d="M25 0h39v64H11Z" fill="hsl(310 76% 66%)" opacity="0.82"/>
+  <g transform="rotate(211 32 32)" opacity="0.42"><path d="M14 43 32 13l18 30Z" fill="none" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/></g>
+  <text x="32" y="39" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="0">SN</text>
 </svg>
