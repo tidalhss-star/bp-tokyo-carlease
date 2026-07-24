@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
-  <metadata>BPaaS site identity d7e24cb002729c30</metadata>
-  <rect width="64" height="64" rx="11" fill="hsl(186 49% 26%)"/>
-  <path d="M25 0h39v64H11Z" fill="hsl(310 76% 66%)" opacity="0.82"/>
-  <g transform="rotate(211 32 32)" opacity="0.42"><path d="M14 43 32 13l18 30Z" fill="none" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/></g>
-  <text x="32" y="39" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="0">SN</text>
+  <title>상수 유흥 추천정보</title>
+  <rect width="64" height="64" rx="10" fill="hsl(186 48% 22%)"/>
+  <path d="M64 0v26L38 0Z" fill="hsl(317 68% 58%)" opacity="0.16"/>
+  <g transform="rotate(270 32 32)"><rect x="14" y="34" width="9" height="16" rx="2" fill="hsl(186 24% 96%)"/><rect x="27" y="26" width="9" height="24" rx="2" fill="hsl(186 24% 96%)"/><rect x="40" y="16" width="9" height="34" rx="2" fill="hsl(317 68% 58%)"/></g>
 </svg>
