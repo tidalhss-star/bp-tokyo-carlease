@@ -1,10 +1,5 @@
 User-agent: *
 Allow: /
 
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
 Sitemap: https://sangsu-night-guide.link-hub.org/sitemap.xml
+Sitemap: https://sangsu-night-guide.link-hub.org/sitemap-pages.xml
