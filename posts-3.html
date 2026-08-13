@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (3/3) · tokyo-carlease</title>
+  <meta name="description" content="tokyo-carlease에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://sangsu-night-guide.link-hub.org/posts-3.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ :root {
+ /* Color Palette: kr-ledger-warm base with editorial-apple neutrality */
+ --color-bg: #FAF9F6; /* Warm White */
+ --color-text-main: #1A1A1A; /* Soft Black */
+ --color-text-sub: #5D5D5D; /* Gray 700 */
+ --color-accent: #8B4513; /* SaddleBrown - Ledger Warmth */
+ --color-border: #E0DDD5;
+ 
+ /* Typography */
+ --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ --font-family-heading: 'Georgia', serif;
+ 
+ /* Layout Spacing */
+ --space-xs: 8px;
+ --space-sm: 16px;
+ --space-md: 32px;
+ --space-lg: 64px;
+ }
+
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+
+ body {
+ background-color: var(--color-bg);
+ color: var(--color-text-main);
+ font-family: var(--font-family-base);
+ line-height: 1.6;
+ -webkit-font-smoothing: antialiased;
+ }
+
+ /* Container */
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 var(--space-md);
+ }
+
+ /* Header & Navigation (Hamburger Pattern) */
+ header {
+ border-bottom: 1px solid var(--color-border);
+ position: sticky;
+ top: 0;
+ background-color: rgba(250, 249, 246, 0.98);
+ backdrop-filter: blur(5px);
+ z-index: 100;
+ }
+
+ .header-inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 72px;
+ }
+
+ .logo {
+ font-family: var(--font-family-heading);
+ font-size: 24px;
+ font-weight: bold;
+ color: var(--color-text-main);
+ text-decoration: none;
+ letter-spacing: -0.5px;
+ }
+
+ /* Hamburger Menu Logic */
+ .menu-toggle {
+ background: none;
+ border: none;
+ cursor: pointer;
+ display: flex;
+ flex-direction: column;
+ gap: 6px;
+ padding: var(--space-xs);
+ }
+
+ .bar {
+ width: 24px;
+ height: 1.5px;
+ background-color: var(--color-text-main);
+ transition: all 0.3s ease;
+ }
+
+ /* Desktop Nav */
+ .nav-links {
+ display: none; /* Mobile first, toggled via JS/CSS media query in real app */
+ gap: 40px;
+ }
+
+ .nav-links a {
+ text-decoration: none;
+ color: var(--color-text-main);
+ font-weight: 500;
+ position: relative;
+ }
+
+ .nav-links a::after {
+ content: '';
+ position: absolute;
+ width: 0;
+ height: 1px;
+ bottom: -5px;
+ left: 0;
+ background-color: var(--color-accent);
+ transition: width 0.3s ease-in-out;
+ }
+
+ .nav-links a:hover::after {
+ width: 100%;
+ }
+
+ @media (min-width: 768px) {
+ .nav-links { display: flex; }
+ .menu-toggle { display: none; }
+ }
+
+ /* Hero Section (Informational Style) */
+ .hero-section {
+ padding: 80px 0;
+ border-bottom: 1px solid var(--color-border);
+ }
+
+ .hero-content {
+ max-width: 900px;
+ }
+
+ h1.page-title {
+ font-family: var(--font-family-heading);
+ font-size: clamp(2rem, 5vw, 3.5rem);
+ line-height: 1.2;
+ color: var(--color-text-main);
+ margin-bottom: 24px;
+ }
+
+ h1.page-title em {
+ color: var(--color-accent);
+ font-style: italic;
+ }
+
+ .lead-text {
+ font-size: 1.25rem;
+ color: var(--color-text-sub);
+ max-width: 70ch;
+ margin-bottom: 48px;
+ }
+
+ /* Article Body Styling */
+ article {
+ padding: 64px 0;
+ font-size: 1.125rem;
+ color: var(--color-text-main);
+ }
+
+ .article-body p, 
+ .article-body ul, 
+ .article-body ol {
+ margin-bottom: 32px;
+ }
+
+ .article-body h2 {
+ font-family: var(--font-family-heading);
+ font-size: 1.75rem;
+ margin-top: 64px;
+ margin-bottom: 24px;
+ border-left: 4px solid var(--color-accent);
+ padding-left: 16px;
+ }
+
+ .article-body h3 {
+ font-size: 1.5rem;
+ margin-top: 40px;
+ margin-bottom: 16px;
+ }
+
+ /* Information Grid for "Data-Backed Claims" */
+ .info-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ gap: 48px;
+ margin-top: 64px;
+ }
+
+ .info-card {
+ background: #fff;
+ border: 1px solid var(--color-border);
+ padding: 32px;
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ }
+
+ .info-card:hover {
+ transform: translateY(-4px);
+ box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+ border-color: var(--color-accent);
+ }
+
+ .info-card h3 {
+ font-family: var(--font-family-heading);
+ margin-bottom: 16px;
+ color: var(--color-text-main);
+ }
+
+ /* FAQ Section */
+ .faq-section {
+ background-color: #F5F2EE;
+ padding: 80px 0;
+ border-top: 1px solid var(--color-border);
+ }
+
+ .faq-item {
+ margin-bottom: 24px;
+ border-bottom: 1px solid rgba(0,0,0,0.1);
+ padding-bottom: 24px;
+ }
+
+ .faq-question {
+ font-weight: bold;
+ color: var(--color-text-main);
+ margin-bottom: 8px;
+ }
+
+ /* Footer */
+ footer {
+ background-color: #1A1A1A;
+ color: #E0DDD5;
+ padding: 64px 0;
+ font-size: 0.9rem;
+ }
+
+ .footer-inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ 
+ @media (max-width: 768px) {
+ .footer-inner {
+ flex-direction: column;
+ gap: 24px;
+ text-align: center;
+ }
+ }
+
+ /* Utilities */
+ .text-accent { color: var(--color-accent); font-weight: bold; }
+ </style>
+  <meta property="og:title" content="글 목록 (3/3) · tokyo-carlease">
+  <meta property="og:description" content="tokyo-carlease에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://sangsu-night-guide.link-hub.org/posts-3.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="container header-inner">
+ <a href="/" class="logo">Transparent Ledger.</a>
+ 
+ <!-- Hamburger Menu Button -->
+ <button class="menu-toggle" aria-label="Open menu">
+ 
+ 
+ 
+ </button>
+
+ <!-- Desktop Navigation Links -->
+ <nav class="nav-links">
+ <a href="#about">소개</a>
+ <a href="#data">데이터 분석</a>
+ <a href="#experts">전문가 검증</a>
+ <a href="#faq">FAQ</a>
+ <a href="#contact">문의</a>
+ </nav>
+ </div>
+</header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 50개 · 3/3 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-001-1k9azf3.html">면접관들이 본 &amp;#39;창의성&amp;#39;의 물리적 공간: 상수 유흥 추천정보를 활용한 전략적 휴식법</a>
+        <p class="post-item__summary">&gt; study, interview prep, cafe interior, student life, korea high school, focused, relaxation, coffee shop, san</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-002-1go3g5d.html">상수 유흥 추천정보를 통해 본 창의적 문제해결력 면접의 숨은 루브릭</a>
+        <p class="post-item__summary">&lt;IMAGE placement=&quot;hero&quot; alt=&quot;면접 준비하는 학생과 노트 필기 장면&quot; study, student, high school, interview, preparation, notebo</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-1e3gzt4.html">한샘 패키지로 월급 다 소진할 때, 상수 유흥 추천정보만큼은 챙겨라</a>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-1k120nh.html">창의성 면접 점수, 상수 거리 카페 선택보다 더 까다로운 이유</a>
+        <p class="post-item__summary">면접에서 창의성 점수를 매기는 기준이 평가자마다 다르듯이, 상수 유흥 추천정보를 찾는 과정도 사람마다 중요하게 보는 기준이 제각각이다. 어떤 사람은 접근성을 가장 먼저 보고, 어떤 사람은 인원 구성</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-s42lsw.html">LG 트롬 dE2 오류로 리퍼 제품 판단할 때 상수 유흥 공간의 쾌적성까지 고려한다</a>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-003-120tdrp.html">AS 기사들이 숨 쉬는 필터의 숨겨진 가격표</a>
+        <p class="post-item__summary">2019 년 10 월, 물류창고에서 필터 박스 한 스택이 바닥에 무너졌다.그때 내가 본 것은 겉포장만 완벽한 제품이 아니었다. 내부 구조가 완전히 달랐기 때문이다.사용자가 궁금해하는 '타사 필터 호</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-004-120dq64.html">영재 면접 창의성 평가, 상수 유흥을 갈 때 반드시 확인하는 조건</a>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-004-14578nh.html">잘 모를까 알바생이 본 소스 농도, 상수 유흥 추천정보 같은 가치 계산법</a>
+        <p class="post-item__summary">2021 년 프레시지 마라 밀키트 레시피 변경은 단순한 메뉴 업데이트가 아니었습니다. 매장 재단 시간대인 오후 9 시 반, 제가 재고 관리하던 동안에 눈에 띄었던 변화죠. 이전 제품과 비교했을 때 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/review-001-1ezm03s.html">상수 유흥 추천정보 를 찾는 길에 발견한 밀키트 디저트가 숨기는 원가 진실</a>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/review-001-h6v59y.html">상수 유흥 추천정보</a>
+        <p class="post-item__summary">상수 지역의 유흥 시설을 방문하기 전, 방문객들은 다양한 비용 항목과 선택 기준을 잘 समझ하고 있어야 합니다. 본 가이드는 처음 방문하는 분들을 위해 구조적 정보를 제공하여 합리적인 판단을 돕고자</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <a class="pager__link" href="posts-2.html">2</a>
+      <span class="pager__current">3</span>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
