@@ -11,6 +11,51 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/field_note-002-zlr7fb.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260704-067.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260705-100.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260705-131.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260705-316.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260721-0329.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/guide-001-1k9azf3.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/review-001-h6v59y.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sangsu-night-guide.link-hub.org/posts/checklist-005-qd8838.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -41,7 +86,42 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/field_note-002-zlr7fb.html</loc>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/guide-002-1go3g5d.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/guide-003-1e3gzt4.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/guide-003-1k120nh.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/qa-002-s42lsw.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/qa-003-120tdrp.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/qa-004-120dq64.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/qa-004-14578nh.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangsu-night-guide.link-hub.org/posts/review-001-1ezm03s.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -81,27 +161,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260704-067.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260704-068.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260705-100.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260705-131.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260705-316.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -142,11 +202,6 @@
   </url>
   <url>
     <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260721-0328.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260721-0329.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -207,71 +262,6 @@
   </url>
   <url>
     <loc>https://sangsu-night-guide.link-hub.org/posts/gemini-coverage-20260722-0055.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/guide-001-1k9azf3.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/guide-002-1go3g5d.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/guide-003-1e3gzt4.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/guide-003-1k120nh.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/qa-002-s42lsw.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/qa-003-120tdrp.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/qa-004-120dq64.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/qa-004-14578nh.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/review-001-1ezm03s.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts/review-001-h6v59y.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangsu-night-guide.link-hub.org/posts-3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
